@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johelven | Learn. Build. Grow.</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- logo -->
+        <div class="logo">
+            <img src="./Logo.png" alt="Johelven Logo" class="logo-pics">
+            <a href="#">Johelven</a>
+
+        </div>
+        <!-- navigations -->
+        <nav class="nav">
+            <a href="#courses">Courses</a>
+            <a href="#about">About</a>
+            <a href="#register">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <!-- main content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-contents">
+                <div hero-text>
+                    <p class="small-title">LEARN WITH CONFIDENCE</p>
+
+                    <H1>Build your Future with practical Skills</H1>
+                    
+                    <p>Learn tecnology, build real projects, and develop skills that prepare you for the Future</p>
+
+                    <div class="hero-buttons">
+                        <a href="#courses" class="button primary-button">Explore Courses</a>
+                        <a href="#about" class="button secondary-button">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="hero-pics">
+                    <img src="	https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Picture of happy Learners discussing">
+                </div>
+            </div>
+        </section>
+            
+        
+        <!-- Courses Section -->
+        <section class="courses" id="courses">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="small-title">WHAT WE TEACH</p>
+                    <h2>Popular Courses</h2>
+                    <p>Start with the fundamentals and build your skills step by step.</p>
+                </div>
+
+                <div class="course-grid">
+                    <article class="course-card">
+                        <span class="course-number">01</span>
+                        <h3>Web Development</h3>
+                        <p>Learn HTML, CSS, JavaScript and how to build websites from scratch.</p>
+                        <a href="#">View Course</a>
+                    </article>
+
+                    <article class="course-card">
+                        <span class="course-number">02</span>
+                        <h3>Data Analysis</h3>
+                        <p>Learn how to work with data and turn information into useful insights.</p>
+                        <a href="#">View Course</a>
+                    </article>
+
+                    <article class="course-card">
+                        <span class="course-number">03</span>
+                        <h3>Artificial Intelligence</h3>
+                        <p>Understand the foundations of AI and start building Intelligent applications.</p>
+                        <a href="#">View Course</a>
+
+                    </article>
+
+
+
+                </div>
+            </div>
+            
+        </section>
+        
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container about-content">
+
+                <div>
+                    <p class="small-title">ABOUT Johelven</p>
+                    <h2>Learning should be practical.</h2>
+                </div>
+
+                <div>
+                    <p>
+                        We believe students learn better when they combine
+                        knowledge with practice.
+                    </p>
+
+                    <p>
+                        Our courses focus on simple explanations, practical
+                        exercises, and real projects.
+                    </p>
+
+                    <ul>
+                        <li>Beginner-friendly lessons</li>
+                        <li>Practical projects</li>
+                        <li>Responsive web development</li>
+                        <li>Accessible websites</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section class="register" id="register">
+            <div class="container register-content">
+
+                <div class="register-text">
+
+                    <p class="small-title">START LEARNING</p>
+                    <h2>Join our learning community.</h2>
+                    <p>
+                        Fill in the form and we will contact you with
+                        more information about our courses.
+                    </p>
+
+                </div>
+
+
+                <form class="signup-form">
+
+                    <div class="form-group">
+
+                        <label for="name">Full Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">Email Address</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <fieldset>
+
+                        <legend>Preferred learning method</legend>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="learning"
+                                value="online"
+                            >
+                            Online
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="learning"
+                                value="physical"
+                            >
+                            Physical
+                        </label>
+
+                    </fieldset>
+
+
+                    <div class="form-group">
+
+                        <label for="course" >Choose a course</label>
+
+                        <select id="course" name="course" >
+
+                            <option value="">
+                                Select a course
+                            </option>
+
+                            <option value="web">
+                                Web Development
+                            </option>
+
+                            <option value="data">
+                                Data Analysis
+                            </option>
+
+                            <option value="ai">
+                                Artificial Intelligence
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="Tell us what you want to learn"
+                        ></textarea>
+
+                    </div>
+
+
+                    <label class="checkbox">
+
+                        <input
+                            type="checkbox"
+                            name="updates"
+                        >
+
+                        Send me course updates
+
+                    </label>
+
+
+                    <button type="submit" class="button primary-button">
+                        Submit
+                    </button>
+
+                </form>
+
+            </div>
+            
+        </section>
+    </main>
+
+    <!-- footer  -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div>
+
+                <h2>Johelven</h2>
+
+                <p>
+                    Learn skills. Build projects. Grow.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#courses">Courses</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </div>
+
+        <div class="container copyright">
+
+            <p>
+                &copy; 2026 Johelven. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
